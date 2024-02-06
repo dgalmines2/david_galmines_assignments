@@ -6,7 +6,7 @@ public class Gun : Weapon
 {
     public Gun() : base()
     {
-        base.WeaponName = "TommyGun";
+        WeaponName = "TommyGun";
         WeaponStrength = 700;
     }
 
