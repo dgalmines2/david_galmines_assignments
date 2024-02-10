@@ -11,7 +11,7 @@ public class EnemyData : ScriptableObject
     [SerializeField] private int EnemyDamage;
     [SerializeField] private float EnemySpeed;
 
-    public string EnemyName1 { get => EnemyName; set => EnemyName = value; }    //encapsulated variables
+    public string EnemyName1 { get => EnemyName; set => EnemyName = value; }                   //encapsulated variables
     public string EnemyDescription1 { get => EnemyDescription; set => EnemyDescription = value; }
     public int EnemyHealth1 { get => EnemyHealth; set => EnemyHealth = value; }
     public int EnemyDamage1 { get => EnemyDamage; set => EnemyDamage = value; }
